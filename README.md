@@ -46,6 +46,7 @@ and honest discussion of what did and didn't work are in `report/Research_Report
    venv\Scripts\activate        # Windows
    source venv/bin/activate     # macOS/Linux
    pip install -r requirements.txt
+   jupyter-notebook
    ```
 2. Place the provided price dataset at `data/BTC_price.xlsx` (see note below).
 3. Open `notebooks/BTC_Pred_Report.ipynb` and **Restart & Run All**. Expect the LSTM
